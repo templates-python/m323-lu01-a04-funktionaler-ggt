@@ -1,5 +1,9 @@
 def ggt(a, b):
-    pass
+    if b == 0:
+        return a
+    else:
+        return ggt(b, a % b)
+
 
 
 if __name__ == '__main__':
