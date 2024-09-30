@@ -1,5 +1,6 @@
 import main
 
+
 def test_ggt():
     assert main.ggt(56, 48) == 8
     assert main.ggt(101, 103) == 1
